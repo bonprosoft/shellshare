@@ -1,0 +1,15 @@
+{
+  "name": "shellshare_viewer",
+  "version": "1.0.0",
+  "description": "Simple viewer for ShellShare.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },  
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bower-task": "^0.4.0"
+  },
+  "author": "Yuki IGARASHI <me@bonprosoft.com>",
+  "license": "MIT"
+}

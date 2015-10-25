@@ -1,0 +1,25 @@
+{
+  "name": "shellshare_viewer",
+  "description": "Simple viewer for ShellShare.",
+  "main": "index.js",
+  "authors": [
+    "Yuki IGARASHI <me@bonprosoft.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [
+    "es6"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "jQuery#~2.1.4",
+    "normalize-css": "normalize.css#~3.0.3",
+    "golden-layout": "~1.0.10"
+  }
+}
