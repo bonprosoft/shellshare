@@ -14,7 +14,7 @@ BASEDIR=`(cd "$BASEDIR"; pwd)`
 
 
 # 不要なら外してください
-source env/bin/activate
+source $BASEDIR/env/bin/activate
 
 # ========
 # 環境設定
