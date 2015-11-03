@@ -107,6 +107,7 @@ class StreamManager(object):
             return
 
         user = self.__broadcaster[sender]
+        data["text"] = re.sub(r'\\e\[[0-9]*m', data["text"], "")
         text = data["text"]
         position = data["pos"]
 
